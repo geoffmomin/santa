@@ -1,19 +1,6 @@
 Santa  [![Build Status](https://travis-ci.org/google/santa.png?branch=master)](https://travis-ci.org/google/santa)
 =====
 
-Santa is a binary whitelisting/blacklisting system for Mac OS X. It consists of
-a kernel extension that monitors for executions, a userland daemon that makes
-execution decisions based on the contents of a SQLite database, a GUI agent that
-notifies the user in case of a block decision and a command-line utility for
-managing the system and synchronizing the database with a server.
-
-Santa is not yet a 1.0. We're writing more tests, fixing bugs, working on TODOs
-and finishing up a security audit.
-
-Santa is named because it keeps track of binaries that are naughty and nice.
-
-Santa is a project of Google's Macintosh Operations Team.
-
 Features
 ========
 
